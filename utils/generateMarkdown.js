@@ -1,5 +1,5 @@
 function generateMarkdown(data) {
-  return `
+	return `
 # ${data.title}
 
 `;
