@@ -107,7 +107,7 @@ ${test}
 ## Questions
 ###### For questions, please contact me at ${userEmail}.
 
-${userImage}`;
+![avatar](${userImage})`;
 
 				fs.writeFile("read2.md", readMeContent, (err) => {
 					if (err) {
