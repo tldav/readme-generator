@@ -1,4 +1,4 @@
-# dk
+# x
 
 ## Table of Contents
 [Description](#description)
@@ -16,24 +16,24 @@
 [Questions](#questions)
 
 ## Description
-donkey kong
+x
 
 ## Installation
-dk
+x
 
 ## Usage
-donkey kong
+x
 
 ## License
-is
+x
 
 ## Contributing
-here
+x
 
 ## Testing
-dk rap
+x
 
 ## Questions
 ###### For questions, please contact me at tldavis09@yahoo.com.
 
-![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4)
+![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4){:height="50%" width="50%" border-radius:"50%"} 

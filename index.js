@@ -107,7 +107,7 @@ ${test}
 ## Questions
 ###### For questions, please contact me at ${userEmail}.
 
-![avatar](${userImage})`;
+![avatar](${userImage}){:height="50%" width="50%" border-radius:"50%"} `;
 
 				fs.writeFile("read2.md", readMeContent, (err) => {
 					if (err) {
