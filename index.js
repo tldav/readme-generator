@@ -70,10 +70,18 @@ inquirer
 				const userEmail = result.data.email;
 
 				const readMeContent = `# ${title}
-## Description
-${description}
 
 ## Table of Contents
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Testing](#testing)
+[Questions](#questions)
+
+## Description
+${description}
 
 ## Installation
 ${install}
@@ -87,7 +95,7 @@ ${license}
 ## Contributing
 ${contributing}
 
-## Tests
+## Testing
 ${test}
 
 ## Questions
