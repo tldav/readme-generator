@@ -1,14 +1,14 @@
 // required node modules and js files
 const fs = require("fs");
 const inquirer = require("inquirer");
-const api = require("./utils/api");
-const generateMarkdown = require("./utils/generateMarkdown").default;
+const axios = require("axios");
+require("dotenv").config();
 
-function promptUser() {
-	return inquirer.prompt([
+inquirer
+	.prompt([
 		{
 			type: "input",
-			name: "username",
+			name: "name",
 			message: "What is your Github username?"
 		},
 		{
@@ -47,10 +47,19 @@ function promptUser() {
 			name: "test",
 			message: "What command should be run to test?"
 		}
-	]);
-}
+	])
+	.then(function(input) {
+		const name = input.name;
+		console.log(name);
+	});
 
-promptUser();
+// .get(
+//     `https://api.github.com/users/${username}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`
+// )
+// .catch((err) => {
+//     console.log(`User not found`);
+//     process.exit(1);
+// });
 
 function writeToFile(fileName, data) {}
 
