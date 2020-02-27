@@ -50,7 +50,23 @@ inquirer
 	])
 	.then(function(input) {
 		const name = input.name;
-		console.log(name);
+		const title = input.title;
+		const description = input.description;
+		const install = input.install;
+		const usage = input.usage;
+		const license = input.license;
+		const contributing = input.contributing;
+		const test = input.test;
+		console.log(
+			name,
+			title,
+			description,
+			install,
+			usage,
+			license,
+			contributing,
+			test
+		);
 	});
 
 // .get(
