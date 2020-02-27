@@ -1,4 +1,4 @@
-# x
+# a
 
 ## Table of Contents
 [Description](#description)
@@ -16,24 +16,26 @@
 [Questions](#questions)
 
 ## Description
-x
+s
 
 ## Installation
-x
+g
 
 ## Usage
-x
+h
 
 ## License
-x
+h
 
 ## Contributing
-x
+sh
 
 ## Testing
-x
+sd
 
 ## Questions
 ###### For questions, please contact me at tldavis09@yahoo.com.
 
-![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4){:height="50%" width="50%" border-radius:"50%"} 
+![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4)
+
+[![Generic badge](https://img.shields.io/badge/<Happy>-<Hunting>-<Maroon>.svg)](https://shields.io/)

@@ -107,7 +107,10 @@ ${test}
 ## Questions
 ###### For questions, please contact me at ${userEmail}.
 
-![avatar](${userImage}){:height="50%" width="50%" border-radius:"50%"} `;
+![avatar](${userImage})
+
+[![Generic badge](https://img.shields.io/badge/<Happy>-<Hunting>-<Maroon>.svg)](https://shields.io/)
+`;
 
 				fs.writeFile("read2.md", readMeContent, (err) => {
 					if (err) {
