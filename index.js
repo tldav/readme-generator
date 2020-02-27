@@ -90,7 +90,7 @@ inquirer
 ${description}
 
 ## Installation
-${install}
+\`${install}\`
 
 ## Usage
 ${usage}
@@ -102,7 +102,7 @@ ${license}
 ${contributing}
 
 ## Testing
-${test}
+\`${test}\`
 
 ## Questions
 ###### For questions, please contact me at ${userEmail}.

@@ -1,4 +1,4 @@
-# This is my project
+# Project GOAT
 
 ## Table of Contents
 [Description](#description)
@@ -16,22 +16,22 @@
 [Questions](#questions)
 
 ## Description
-My project is this.
+It's mostly about goats.
 
 ## Installation
-npm i
+`npm i`
 
 ## Usage
-to be used.
+practical goat app
 
 ## License
-Alabama CDL
+3
 
 ## Contributing
-Please don't
+feel free to
 
 ## Testing
-npm test
+`npm test`
 
 ## Questions
 ###### For questions, please contact me at tldavis09@yahoo.com.
