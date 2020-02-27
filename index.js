@@ -62,23 +62,52 @@ inquirer
 
 		// Axios call for github API
 		const queryUrl = `https://api.github.com/users/${name}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`;
-		axios.get(queryUrl).then(function(result) {
-			const userImage = result.data.avatar_url;
-			const userEmail = result.data.email;
+		axios
+			.get(queryUrl)
+			.then(function(result) {
+				// stores the profile picture and email associated with the github profile.
+				const userImage = result.data.avatar_url;
+				const userEmail = result.data.email;
 
-			console.log(result);
-			console.log(userImage);
-			console.log(userEmail);
-		});
+				const readMeContent = `
+
+                # ${title}
+                
+                ## Description
+                ${description}
+                
+                ## Table of Contents
+                
+                ## Installation
+                ${install}
+                
+                ## Usage
+                ${usage}
+                
+                ## License
+                ${license}
+                
+                ## Contributing
+                ${contributing}
+                
+                ## Tests
+                ${test}
+                
+                ## Questions
+                
+                `;
+
+				fs.writeFile("README2.md", readMeContent, (err) => {
+					if (err) {
+						throw err;
+					}
+				});
+			})
+			// Notifies the user if they did not enter a valid github username.
+			.catch((err) => {
+				console.log(
+					"User not found. Please enter a valid Github username."
+				);
+				process.exit(1);
+			});
 	});
-
-// .catch((err) => {
-//     console.log(`User not found`);
-//     process.exit(1);
-// });
-
-function writeToFile(fileName, data) {}
-
-function init() {}
-
-init();
