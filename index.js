@@ -69,33 +69,31 @@ inquirer
 				const userImage = result.data.avatar_url;
 				const userEmail = result.data.email;
 
-				const readMeContent = `
+				const readMeContent = `# ${title}
+## Description
+${description}
 
-                # ${title}
-                
-                ## Description
-                ${description}
-                
-                ## Table of Contents
-                
-                ## Installation
-                ${install}
-                
-                ## Usage
-                ${usage}
-                
-                ## License
-                ${license}
-                
-                ## Contributing
-                ${contributing}
-                
-                ## Tests
-                ${test}
-                
-                ## Questions
-                
-                `;
+## Table of Contents
+
+## Installation
+${install}
+
+## Usage
+${usage}
+
+## License
+${license}
+
+## Contributing
+${contributing}
+
+## Tests
+${test}
+
+## Questions
+###### For questions, please contact me at ${userEmail}.
+
+${userImage}`;
 
 				fs.writeFile("read2.md", readMeContent, (err) => {
 					if (err) {
