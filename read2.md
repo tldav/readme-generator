@@ -1,4 +1,4 @@
-# Project 17
+# coolProject
 
 ## Table of Contents
 [Description](#description)
@@ -16,19 +16,19 @@
 [Questions](#questions)
 
 ## Description
-17th project
+is cool
 
 ## Installation
-`npm i`
+`npmi i`
 
 ## Usage
-used after the first 16 projects
+chill
 
 ## License
 MIT
 
 ## Contributing
-Please create a pull request for review
+please do
 
 ## Testing
 `npm test`
@@ -38,4 +38,4 @@ Please create a pull request for review
 
 ![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4)
 
-[![Generic badge](https://img.shields.io/badge/Project 17-MIT-purple.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/coolProject-MIT-purple.svg)](https://shields.io/)
