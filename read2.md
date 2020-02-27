@@ -1,4 +1,4 @@
-# saldfkjd
+# This is my project
 
 ## Table of Contents
 [Description](#description)
@@ -16,22 +16,22 @@
 [Questions](#questions)
 
 ## Description
-s
+My project is this.
 
 ## Installation
-g
+npm i
 
 ## Usage
-n
+to be used.
 
 ## License
-
+Alabama CDL
 
 ## Contributing
-dh
+Please don't
 
 ## Testing
-y
+npm test
 
 ## Questions
 ###### For questions, please contact me at tldavis09@yahoo.com.
