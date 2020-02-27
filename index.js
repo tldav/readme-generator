@@ -4,6 +4,7 @@ const inquirer = require("inquirer");
 const axios = require("axios");
 require("dotenv").config();
 
+// Creates a series of command line prompt questions
 inquirer
 	.prompt([
 		{
@@ -49,6 +50,7 @@ inquirer
 		}
 	])
 	.then(function(input) {
+		// user answers stored in variables
 		const name = input.name;
 		const title = input.title;
 		const description = input.description;
@@ -57,21 +59,19 @@ inquirer
 		const license = input.license;
 		const contributing = input.contributing;
 		const test = input.test;
-		console.log(
-			name,
-			title,
-			description,
-			install,
-			usage,
-			license,
-			contributing,
-			test
-		);
+
+		// Axios call for github API
+		const queryUrl = `https://api.github.com/users/${name}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`;
+		axios.get(queryUrl).then(function(result) {
+			const userImage = result.data.avatar_url;
+			const userEmail = result.data.email;
+
+			console.log(result);
+			console.log(userImage);
+			console.log(userEmail);
+		});
 	});
 
-// .get(
-//     `https://api.github.com/users/${username}?client_id=${process.env.CLIENT_ID}&client_secret=${process.env.CLIENT_SECRET}`
-// )
 // .catch((err) => {
 //     console.log(`User not found`);
 //     process.exit(1);
