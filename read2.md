@@ -1,4 +1,4 @@
-# Project GOAT
+# Project 17
 
 ## Table of Contents
 [Description](#description)
@@ -16,19 +16,19 @@
 [Questions](#questions)
 
 ## Description
-It's mostly about goats.
+17th project
 
 ## Installation
 `npm i`
 
 ## Usage
-practical goat app
+used after the first 16 projects
 
 ## License
-3
+MIT
 
 ## Contributing
-feel free to
+Please create a pull request for review
 
 ## Testing
 `npm test`
@@ -38,4 +38,4 @@ feel free to
 
 ![avatar](https://avatars0.githubusercontent.com/u/58016756?v=4)
 
-[![Generic badge](https://img.shields.io/badge/Happy-Hunting-purple.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Project 17-MIT-purple.svg)](https://shields.io/)

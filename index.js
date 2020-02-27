@@ -109,7 +109,7 @@ ${contributing}
 
 ![avatar](${userImage})
 
-[![Generic badge](https://img.shields.io/badge/Happy-Hunting-purple.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/${title}-${license}-purple.svg)](https://shields.io/)
 `;
 
 				fs.writeFile("read2.md", readMeContent, (err) => {
