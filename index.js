@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const api = require("./utils/api");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown").default;
 
 function promptUser() {
 	return inquirer.prompt([
@@ -14,8 +14,8 @@ function promptUser() {
 
 		{
 			type: "input",
-			name: "repo",
-			message: "What is the repo name of your project?"
+			name: "title",
+			message: "What is the name of your project?"
 		},
 
 		{
