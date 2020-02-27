@@ -97,7 +97,7 @@ inquirer
                 
                 `;
 
-				fs.writeFile("README2.md", readMeContent, (err) => {
+				fs.writeFile("read2.md", readMeContent, (err) => {
 					if (err) {
 						throw err;
 					}
